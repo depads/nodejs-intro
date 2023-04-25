@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mjcollection",
+    "dateExported": "2023-04-25T03:56:11.397Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "27ce3641-c626-421e-97db-cb48dd4107d3",
+            "colId": "156df595-aaaa-4b35-be6e-5d39a12bad1d",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-25T03:32:18.321Z",
+            "modified": "2023-04-25T03:32:18.321Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n        \"title\": \"Student\",\n        \"firstName\": \"jhonrell\",\n        \"lastName\": \"gutang\",\n        \"role\": \"User\",\n        \"email\": \"aadasd@gmail.com\",\n        \"password\": \"123456\",\n        \"confirmPassword\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac8a2f89-eadf-48b4-80e4-18ac14dfede4",
+            "colId": "156df595-aaaa-4b35-be6e-5d39a12bad1d",
+            "containerId": "",
+            "name": "GETByID",
+            "url": "http://localhost:4000/users/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-25T03:35:13.060Z",
+            "modified": "2023-04-25T03:35:13.060Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2e00f0c-42ed-4c16-b198-9cdf7a286053",
+            "colId": "156df595-aaaa-4b35-be6e-5d39a12bad1d",
+            "containerId": "",
+            "name": "GET",
+            "url": "http://localhost:4000/users/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-25T03:52:31.519Z",
+            "modified": "2023-04-25T03:52:31.519Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"id\": 1,\n  \"email\": \"mjd@gmail.com\",\n  \"title\": \"Student\",\n  \"firstName\": \"medji\",\n  \"lastName\": \"de padua\",\n  \"role\": \"User\",\n  \"createdAt\": \"2023-04-25T03:31:38.000Z\",\n  \"updatedAt\": \"2023-04-25T03:31:38.000Z\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2b8a9597-f4d9-44df-a393-3ced50851325",
+            "colId": "156df595-aaaa-4b35-be6e-5d39a12bad1d",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:4000/users/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-04-25T03:55:23.393Z",
+            "modified": "2023-04-25T03:55:23.393Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n  \"email\": \"depads@gmail.com\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "389512ad-419f-4fd0-8b34-cd56b72988de",
+            "colId": "156df595-aaaa-4b35-be6e-5d39a12bad1d",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:4000/users/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-04-25T03:55:51.103Z",
+            "modified": "2023-04-25T03:55:51.103Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
